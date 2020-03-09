@@ -4,14 +4,18 @@ let options = {
   name: "test"
 };
 
-console.log(options.name);
+//console.log(options.name);
 options.bool = false;
-
-console.log(options);
 
 options.bool = true;
 options.width = 1920;
 options.heigh = 1080;
+<<<<<<< HEAD
 console.log(options);
 
 //some comments
+=======
+
+options.num = 31;
+console.log(options);
+>>>>>>> 1dcfc5a0e0093fa74890097cea00443afa2bb101

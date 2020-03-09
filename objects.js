@@ -8,3 +8,8 @@ console.log(options.name);
 options.bool = false;
 
 console.log(options);
+
+options.bool = true;
+options.width = 1920;
+options.heigh = 1080;
+console.log(options);
